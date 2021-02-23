@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_start_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_record"
+            tools:ignore="MissingConstraints"></Button>
+
+        <Button
+            android:id="@+id/btn_stop_record"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_record"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/capture"
+        tools:ignore="MissingConstraints"
+        android:layout_marginTop="15px"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15px">
+        <Button
+            android:id="@+id/btn_start_request_real_stream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_request_real_stream"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/btn_stop_request_real_stream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stop_request_real_stream"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+    <com.xcbj.uvccamerademo.view.AutoFitTextureView
+        android:id="@+id/textureView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

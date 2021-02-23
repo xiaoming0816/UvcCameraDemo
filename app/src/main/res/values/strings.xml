@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">UvcCameraDemo</string>
+    <string name="start_record">开始录像</string>
+    <string name="stop_record">停止录像</string>
+    <string name="capture">拍照</string>
+    <string name="start_request_real_stream">开启请求实时流</string>
+    <string name="stop_request_real_stream">停止请求实时流</string>
+</resources>
